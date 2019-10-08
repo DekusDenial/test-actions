@@ -13,6 +13,7 @@ jobs:
       run: |
         echo which shell
         echo $0
+        echo $SHELL
         echo env
         env
         echo is shell interactive
