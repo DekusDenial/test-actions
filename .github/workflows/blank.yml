@@ -14,8 +14,6 @@ jobs:
         echo which shell
         echo $0
         echo $SHELL
-        echo bash profile
-        cat ~/.bash_profile
         echo bash login
         cat ~/.bash_login
         echo profile
