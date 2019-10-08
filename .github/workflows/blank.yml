@@ -14,6 +14,7 @@ jobs:
         echo which shell
         echo $-
         echo $0
+        cat $0
         echo $SHELL
         echo env
         env
