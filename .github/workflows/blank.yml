@@ -12,7 +12,7 @@ jobs:
     - name: Run a one-line script
       run: |
         echo Test git
-        git diff
+        git diff 024023b...origin/master
         echo Done git
     - name: Run a multi-line script
       run: |
