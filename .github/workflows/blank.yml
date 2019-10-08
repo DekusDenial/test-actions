@@ -12,12 +12,9 @@ jobs:
     - name: env
       run: |
         echo which shell
+        echo $-
         echo $0
         echo $SHELL
-        echo bash login
-        cat ~/.bash_login
-        echo profile
-        cat ~/.profile
         echo env
         env
         echo is shell interactive
