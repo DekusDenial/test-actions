@@ -24,3 +24,5 @@ jobs:
       with:
         name: env.txt
         path: /tmp/env.txt
+    - name: sleep
+      run: sleep 30
