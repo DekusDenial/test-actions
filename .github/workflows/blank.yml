@@ -19,4 +19,8 @@ jobs:
         echo env
         echo is shell interactive
         [[ $- == *i* ]] && echo 'Interactive' || echo 'Not interactive'
-        env > env.txt
+        env > /tmp/env.txt
+    - uses: actions/upload-artifact@master
+      with:
+        name: env.txt
+        path: /tmp/env.txt
