@@ -17,6 +17,6 @@ jobs:
         cat $0
         echo $SHELL
         echo env
-        env
         echo is shell interactive
         [[ $- == *i* ]] && echo 'Interactive' || echo 'Not interactive'
+        env > env.txt
